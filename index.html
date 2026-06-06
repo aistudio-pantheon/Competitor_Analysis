@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Pantheon Competitor Intelligence — Loading dashboard…</title>
+  <meta http-equiv="refresh" content="0; url=dashboard.html" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="canonical" href="dashboard.html" />
+  <style>
+    body{margin:0;background:#0a0e17;color:#e8eef9;font:14px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center}
+    .box{text-align:center;max-width:480px;padding:32px}
+    h1{font-size:24px;margin:0 0 12px;background:linear-gradient(90deg,#5b9cff,#ff7ab6);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:800}
+    a{color:#5b9cff;text-decoration:none;font-weight:600}
+    a:hover{text-decoration:underline}
+    .spinner{display:inline-block;width:18px;height:18px;border:2px solid rgba(91,156,255,.2);border-top-color:#5b9cff;border-radius:50%;animation:spin 1s linear infinite;vertical-align:middle;margin-right:8px}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .muted{color:#8895ad;font-size:12px;margin-top:14px}
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Competitor Intelligence</h1>
+    <p><span class="spinner"></span>Loading dashboard…</p>
+    <p class="muted">If it doesn't redirect automatically, click here: <a href="dashboard.html">Open dashboard</a></p>
+  </div>
+  <script>window.location.replace('dashboard.html');</script>
+</body>
+</html>
