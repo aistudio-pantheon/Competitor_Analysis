@@ -8,7 +8,14 @@
       "Bash(python -c \"import dashboard, demo_data; print\\('imports OK'\\)\")",
       "Bash(python -c ' *)",
       "WebSearch",
-      "Bash(python -X utf8 -c ' *)"
+      "Bash(python -X utf8 -c ' *)",
+      "Bash(rm .github/workflows/pages.yml)",
+      "Bash(rmdir .github/workflows)",
+      "Bash(rmdir .github)",
+      "Bash(python build_pages_site.py)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }

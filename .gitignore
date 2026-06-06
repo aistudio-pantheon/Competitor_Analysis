@@ -52,3 +52,6 @@ apify_dataset_*.json
 
 # --- Large temporary scrape buffers we don't want versioned ---
 *-RAW-NEVER-COMMIT.csv
+
+# --- Pages build artifact (built by build_pages_site.py, served by Cloudflare Pages) ---
+_site/
