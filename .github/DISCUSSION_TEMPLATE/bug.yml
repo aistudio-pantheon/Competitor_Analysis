@@ -1,0 +1,39 @@
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐛 Bug report
+        Something in the dashboard looks wrong — broken layout, incorrect number, chart not rendering, etc.
+
+  - type: input
+    id: where
+    attributes:
+      label: Where did you see it?
+      placeholder: "e.g. Comparison view · WTP Matrix section · Mobile Safari"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong?
+      placeholder: "Describe what looks broken or incorrect. Screenshots help."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to see?
+    validations:
+      required: false
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / device
+      placeholder: "e.g. Chrome 138 on Mac · Safari iOS 17"
+    validations:
+      required: false

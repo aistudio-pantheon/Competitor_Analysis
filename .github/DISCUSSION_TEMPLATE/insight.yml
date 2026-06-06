@@ -1,0 +1,41 @@
+title: "[Insight] "
+labels: ["insight"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Share an insight or observation
+        Spotted something interesting in the dashboard? Pattern across accounts, anomaly worth investigating, new strategic angle? Capture it here.
+
+  - type: input
+    id: which-segment
+    attributes:
+      label: Which dashboard segment / account?
+      placeholder: "e.g. Founder · @kalpesh.kinariwala · Theme Leaderboard"
+    validations:
+      required: true
+
+  - type: textarea
+    id: observation
+    attributes:
+      label: What did you notice?
+      description: Be specific — numbers, comparisons, screenshots welcome
+      placeholder: "Pantheon is over-indexed on Cultural/Community (25%) vs Imtiaz (3%), but earning 17× less per leadership post…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: implication
+    attributes:
+      label: So what?
+      description: What does this mean for our strategy?
+    validations:
+      required: false
+
+  - type: textarea
+    id: action
+    attributes:
+      label: Suggested next step
+      description: Action to test or investigate further
+    validations:
+      required: false

@@ -1,0 +1,30 @@
+title: "[Suggestion] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ✨ Suggest a new feature or improvement
+        Want a new chart, metric, panel, or comparison view? Tell us what + why.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like added or changed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why? What decision would it inform?
+      placeholder: "Helps me figure out which channel to invest in for…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Workarounds you've used so far
+    validations:
+      required: false

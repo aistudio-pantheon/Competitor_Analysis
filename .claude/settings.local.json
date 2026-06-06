@@ -15,7 +15,13 @@
       "Bash(python build_pages_site.py)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(mkdir -p private)",
+      "Bash(mv directive-pantheon-brand-positioning.md private/)",
+      "Bash(mv dubai_real_estate_targets.md private/)",
+      "Bash(mv plan-paid-organic-and-inactive-followers.md private/)",
+      "Bash(mv memory *)",
+      "Bash(python build_dashboard.py)"
     ]
   }
 }

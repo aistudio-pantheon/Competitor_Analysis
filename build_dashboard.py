@@ -884,6 +884,7 @@ a{color:#5b9cff;text-decoration:none} a:hover{text-decoration:underline}
       <div class="sub" id="datespan"></div>
     </div>
     <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <a href="https://github.com/aistudio-pantheon/Competitor_Analysis/discussions/new/choose" target="_blank" rel="noopener" title="Share feedback, report a bug, or suggest a change — opens GitHub Discussions in a new tab" style="background:rgba(255,122,182,.12);border:1px solid rgba(255,122,182,.4);color:#ff7ab6;padding:8px 14px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;letter-spacing:.04em;text-decoration:none;display:inline-flex;align-items:center;gap:4px">💬 Feedback</a>
       <button id="btn-print" title="Print / Save as PDF (Ctrl/Cmd+P)" style="background:rgba(91,156,255,.12);border:1px solid rgba(91,156,255,.4);color:#5b9cff;padding:8px 14px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;letter-spacing:.04em">📄 Snapshot PDF</button>
       <div class="seg-switcher" id="seg-switcher"></div>
     </div>
@@ -3259,6 +3260,7 @@ function renderDashFooter(){
     <div class="col"><strong>Posts indexed</strong>: ${fmt(totalN)} total · ${fmt(ownN)} own</div>
     <div class="col"><strong>Tracked accounts</strong>: ${ACCOUNTS.length} (${ACCOUNTS.filter(a=>a.segment==='Founder').length} founder · ${ACCOUNTS.filter(a=>a.segment==='Enterprise').length} enterprise)</div>
     <div class="col"><strong>Estimated scrape cost</strong>: AED ${costAED.toFixed(2)} <span style="opacity:.6">(~$${costUSD.toFixed(2)} · ${totalN} items × AED ${META.apifyCostPerPostAED.toFixed(4)})</span></div>
+    <div class="col"><a href="https://github.com/aistudio-pantheon/Competitor_Analysis/discussions" target="_blank" rel="noopener" style="color:#ff7ab6;text-decoration:none;font-weight:600">💬 Leave feedback / view discussions →</a></div>
     <div class="col" style="margin-left:auto;font-size:11px;opacity:.7">Generated ${new Date(META.generatedAtMs).toLocaleString('en-GB',{timeZone:'Asia/Dubai',day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',hour12:false})} <span style="opacity:.7">GST (Dubai)</span></div>
   `;
 }
